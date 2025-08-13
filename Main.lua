@@ -13,7 +13,7 @@ local cheemsFetcher, cheemsUrls = {}, {}
 
 local _ENV = (getgenv or getrenv or getfenv)()
 
-cheemsUrls.Owner = "https://raw.githubusercontent.com/cheemshub/"
+cheemsUrls.Owner = "https://github.com/cheemshub-lab/Cheems-hub/blob/main/Main.lua/"
 cheemsUrls.Repository = cheemsUrls.Owner .. "Scripts/refs/heads/main/"
 cheemsUrls.Translator = cheemsUrls.Repository .. "Translator/"
 cheemsUrls.Utils = cheemsUrls.Repository .. "Utils/"
